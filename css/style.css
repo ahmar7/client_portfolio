@@ -2,11 +2,22 @@
   font-family: "ubuntu";
   src: url("../fonts/ubuntu/Ubuntu-BI.ttf");
 }
+*{
+    scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: Ubuntu;
 
   padding: 0;
+}
+.main-buttons a{
+    text-decoration: none;
+    color: #030239;
+}
+.main-buttons button:hover a{
+    text-decoration: none;
+    color: white;
 }
 p {
   font-size: 16px;
@@ -186,16 +197,18 @@ a:hover {
 .text-black {
   color: #000;
 }
-
-.content {
-  padding: 7rem 0;
-}
+ .container{
+    padding: 0 !important;
+ }
 
 .heading {
   font-size: 2.5rem;
   font-weight: 900;
 }
-
+.contctbtn{
+    background-color: #030239 !important;
+    color: white;
+}
 .form-control {
   border: none;
   border-bottom: 1px solid #ccc;
@@ -329,6 +342,13 @@ label.error {
   font-weight: bold;
   font-size: 12px;
   color: #000;
+}
+.ms2{
+    /* margin-left: 10px !important; */
+    margin-right: 15px !important;
+}
+.rate-display{
+    display: none !important;
 }
 @media (min-width:1024px) {
     .form-control{
