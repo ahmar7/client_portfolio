@@ -1,0 +1,27 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.main-container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.block{
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.column-left{
+    border: 1px solid red;
+    background-color: #8fe0e0a4;
+    width: 49%;
+}
+.column-right{
+    border: 1px solid red;
+    width: 49%;
+}
